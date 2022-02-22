@@ -123,6 +123,90 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &226592124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+  m_PrefabInstance: {fileID: 555183707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &226592125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226592124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aba3e15664f9d24aad52265c97d3f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mats:
+  - {fileID: 2100000, guid: 85700d54e37d5bf44b256214f1123ac9, type: 2}
+  - {fileID: 2100000, guid: ed3a108b7ad9db643bfdf62e6f5bb3cd, type: 2}
+  - {fileID: 2100000, guid: b57cf6cc10730ab42a0763a4f7a1cd96, type: 2}
+  - {fileID: 2100000, guid: 0d5813ce8f04a914ab10cca0149886fa, type: 2}
+  meshes:
+  - {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+  - {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+  - {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+  - {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+--- !u!1001 &555183707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.808
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_Name
+      value: ApartmentCeiling
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +298,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -328,7 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee6d9d3311ee07d448dc775dce62fa68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenStates: 15
+  timeBetweenStates: 3
   currentTime: 0
 --- !u!4 &1008562766
 Transform:
@@ -342,8 +426,35 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1206121814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d1f4cf13df679004f90c7a69a9f10a72, type: 3}
+  m_PrefabInstance: {fileID: 1519746546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1206121815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206121814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aba3e15664f9d24aad52265c97d3f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mats:
+  - {fileID: 2100000, guid: 7fb34b12469db684d9288ea2e9c68f6e, type: 2}
+  - {fileID: 2100000, guid: 9f111dc4f3dfd2041876722dbcd3034c, type: 2}
+  - {fileID: 2100000, guid: ca481ffc1a034954d8acb1bd694809a1, type: 2}
+  - {fileID: 2100000, guid: 02de3b4cc05f73a4b9165c527d6805f4, type: 2}
+  meshes:
+  - {fileID: -5495902117074765545, guid: d1f4cf13df679004f90c7a69a9f10a72, type: 3}
+  - {fileID: 900302565731399597, guid: ff527914758819e4cb52600d235bc5e5, type: 3}
+  - {fileID: -3705370086067138023, guid: 084f1fbc2bc770b468ffaa9583936cd0, type: 3}
+  - {fileID: 4756338419871540240, guid: 04bdc0931d9c62f4fb0287f15d345ae6, type: 3}
 --- !u!1001 &1519746546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -398,7 +509,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d1f4cf13df679004f90c7a69a9f10a72, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7fb34b12469db684d9288ea2e9c68f6e, type: 2}
+      objectReference: {fileID: 2100000, guid: 02de3b4cc05f73a4b9165c527d6805f4, type: 2}
+    - target: {fileID: -5754084199372789682, guid: d1f4cf13df679004f90c7a69a9f10a72, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4756338419871540240, guid: 04bdc0931d9c62f4fb0287f15d345ae6, type: 3}
     - target: {fileID: 919132149155446097, guid: d1f4cf13df679004f90c7a69a9f10a72, type: 3}
       propertyPath: m_Name
       value: AppartmentLight

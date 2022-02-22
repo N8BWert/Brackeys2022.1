@@ -21,7 +21,8 @@ public class DrugManager : MonoBehaviour
         currentTime += Time.deltaTime;
         if (currentTime >= timeBetweenStates) {
             switchNextState();
-            timeBetweenStates = 0;
+            currentTime = 0;
         }
+        Debug.Log(currentTime);
     }
 }
