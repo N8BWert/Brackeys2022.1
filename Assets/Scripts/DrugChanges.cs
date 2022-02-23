@@ -26,6 +26,6 @@ public class DrugChanges : MonoBehaviour
     public void changeState() {
         currentIndex += 1;
         this.gameObject.GetComponent<MeshFilter>().mesh = meshes[currentIndex % meshes.Length];
-        this.gameObject.GetComponent<MeshRenderer>().material = mats[currentIndex % meshes.Length];
+        this.gameObject.GetComponent<MeshRenderer>().material = mats[currentIndex % mats.Length];
     }
 }
