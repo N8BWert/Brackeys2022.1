@@ -305,6 +305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HallowBrightDoor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2a9af5cc7b60484393d64e537f03aab, type: 3}
 --- !u!1 &705507993
