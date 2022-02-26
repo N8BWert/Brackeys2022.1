@@ -28,8 +28,8 @@ public class DrugManager : MonoBehaviour
                 currentIndex += 1;
             }
             switchNextState(currentIndex);
+            CameraShake.Shake(1, 0.1f, 5);
             currentTime = 0;
         }
-        Debug.Log(currentTime);
     }
 }

@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6335867132101803248}
   - component: {fileID: 4624088749296036765}
   - component: {fileID: -5952372285577293046}
+  - component: {fileID: 7614931738099889139}
+  - component: {fileID: 7774574786132179401}
   m_Layer: 0
   m_Name: HLTV
   m_TagString: Untagged
@@ -119,3 +121,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7240493346068470835, guid: b9eaff71ec2a99543842cc3d71fa6e4b, type: 3}
+--- !u!114 &7614931738099889139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5543220746449296677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a3905a33de09c4799f457a6d0e8230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &7774574786132179401
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5543220746449296677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.62
+  m_Center: {x: 0.0024033491, y: 0.64017797, z: 0}

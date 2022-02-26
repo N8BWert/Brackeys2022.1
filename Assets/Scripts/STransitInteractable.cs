@@ -8,9 +8,10 @@ public class STransitInteractable : MonoBehaviour
 
     public string nextSceneName;
     private bool canTransition = false;
+    public static bool doorUnlocked = false;
 
-    void main() {
-        if (canTransition && Input.GetButtonDown("PlayerInteract")) {
+    void Update() {
+        if (canTransition && Input.GetButtonDown("PlayerInteract") && doorUnlocked) {
             SceneManager.LoadScene(nextSceneName);
         }
     }
