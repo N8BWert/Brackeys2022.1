@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1008793424235803520}
   - component: {fileID: 3034022139830454090}
   - component: {fileID: 4457040456119216622}
+  - component: {fileID: 7246342534613241469}
   m_Layer: 0
   m_Name: Counter2
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: -1334237520779506053, guid: f0445d8877b9d3940bdfc94e05b79626, type: 3}
   - {fileID: -1334237520779506053, guid: f0445d8877b9d3940bdfc94e05b79626, type: 3}
   - {fileID: -1334237520779506053, guid: f0445d8877b9d3940bdfc94e05b79626, type: 3}
+--- !u!64 &7246342534613241469
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3538702855771547295}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1334237520779506053, guid: f0445d8877b9d3940bdfc94e05b79626, type: 3}

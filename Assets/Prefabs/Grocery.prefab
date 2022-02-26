@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8480554904786303144}
   - component: {fileID: 5932380391434030178}
   - component: {fileID: 5014082162547855576}
+  - component: {fileID: -5506050205327470225}
+  - component: {fileID: 1362561452087398697}
+  - component: {fileID: 7116834202564700291}
   m_Layer: 0
   m_Name: Grocery
   m_TagString: Untagged
@@ -104,3 +107,43 @@ MonoBehaviour:
   - {fileID: 1406674275117864915, guid: 5fc5a1fa285045c4f8549c6e6b8fd89d, type: 3}
   - {fileID: 5872164545021173820, guid: b41319b0b2c31e749919422202e78809, type: 3}
   - {fileID: 6315174237315062475, guid: 3717c8b6d9f221846b7c5b34fbea5b73, type: 3}
+--- !u!64 &-5506050205327470225
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5284113214400146871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6641915465533926032, guid: 9ea72aae52b94004fa690aedefcf2ed0, type: 3}
+--- !u!135 &1362561452087398697
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5284113214400146871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.587017
+  m_Center: {x: 0.9139981, y: 2.686832, z: 12.018852}
+--- !u!114 &7116834202564700291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5284113214400146871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b701dde8910014ba2409177ec5b0c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 

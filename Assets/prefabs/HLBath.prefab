@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5103457761685321716}
   - component: {fileID: 7005323392209797950}
   - component: {fileID: 8572176533173886884}
+  - component: {fileID: -6883807882993685189}
   m_Layer: 0
   m_Name: HLBath
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: -3642247064303334919, guid: 4831294415bd6f145a3b2e35fd04d83e, type: 3}
   - {fileID: -7684952851693212507, guid: 2f612bc5d83274f4c944b4889046e056, type: 3}
   - {fileID: -7754810699185973186, guid: baaead4b8c132794bba4840071c0a27a, type: 3}
+--- !u!64 &-6883807882993685189
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806530627568001771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5337903645721865123, guid: 3ff070c2d0a1dc84c8220c3bedd0ed7f, type: 3}

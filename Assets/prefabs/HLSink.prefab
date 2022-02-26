@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1710626053316215152}
   - component: {fileID: 3484002827764889018}
   - component: {fileID: 2853100446868725567}
+  - component: {fileID: 9183641439836801675}
   m_Layer: 0
   m_Name: HLSink
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: 8106133290566430608, guid: 764c1b14d1019e74d93758e631d23aeb, type: 3}
   - {fileID: 4951466392200296957, guid: f3cd05353ff58d140903618440baae2c, type: 3}
   - {fileID: -2049758281448404439, guid: c5d9af919642e5242a2109581a4ae879, type: 3}
+--- !u!64 &9183641439836801675
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123622842035229807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3671124377080654647, guid: ffca60f3a5124624c9ae14a031bfbf65, type: 3}

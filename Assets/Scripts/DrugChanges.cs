@@ -21,10 +21,19 @@ public class DrugChanges : MonoBehaviour
     private void OnEnable()
     {
         DrugManager.switchNextState += changeState;
+        DrugManager.resetState += resetState;
     }
 
     public void changeState() {
-        currentIndex += 1;
+        if (currentIndex < 3) {
+            currentIndex += 1;
+        }
+        this.gameObject.GetComponent<MeshFilter>().mesh = meshes[currentIndex % meshes.Length];
+        this.gameObject.GetComponent<MeshRenderer>().material = mats[currentIndex % mats.Length];
+    }
+
+    public void resetState() {
+        currentIndex = 0;
         this.gameObject.GetComponent<MeshFilter>().mesh = meshes[currentIndex % meshes.Length];
         this.gameObject.GetComponent<MeshRenderer>().material = mats[currentIndex % mats.Length];
     }

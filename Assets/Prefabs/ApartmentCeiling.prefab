@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3994527307435503133}
   - component: {fileID: 1192220412404734679}
   - component: {fileID: 525244968129719669}
+  - component: {fileID: 9021565753393503811}
   m_Layer: 0
   m_Name: ApartmentCeiling
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
   - {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
   - {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}
+--- !u!64 &9021565753393503811
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831866676780022530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5883253330450431181, guid: 20268f9926e957e46b8450d6c7d5090e, type: 3}

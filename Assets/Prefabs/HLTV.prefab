@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8073110111608948794}
   - component: {fileID: 6335867132101803248}
   - component: {fileID: 4624088749296036765}
+  - component: {fileID: -5952372285577293046}
   m_Layer: 0
   m_Name: HLTV
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: -4807272177131819544, guid: 6fa86377a6e49b84c83fdf739a4a7cc4, type: 3}
   - {fileID: -3004839293937834192, guid: 8293bb8f541512140bbcbe60becc7b1d, type: 3}
   - {fileID: 4302788230662958996, guid: 2967482d02d7d694b9aa64e512493788, type: 3}
+--- !u!64 &-5952372285577293046
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5543220746449296677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7240493346068470835, guid: b9eaff71ec2a99543842cc3d71fa6e4b, type: 3}

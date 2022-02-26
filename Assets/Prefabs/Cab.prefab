@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3123960594675285228}
   - component: {fileID: 918310831280670758}
   - component: {fileID: 1981561246515373326}
+  - component: {fileID: -6167582143601755830}
   m_Layer: 0
   m_Name: Cab
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: 5821448776016156413, guid: e0169522a7ffb644f93e92079e7d552f, type: 3}
   - {fileID: 5821448776016156413, guid: e0169522a7ffb644f93e92079e7d552f, type: 3}
   - {fileID: 5821448776016156413, guid: e0169522a7ffb644f93e92079e7d552f, type: 3}
+--- !u!64 &-6167582143601755830
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710948557341551091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5821448776016156413, guid: e0169522a7ffb644f93e92079e7d552f, type: 3}
