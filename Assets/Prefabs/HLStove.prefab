@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8162228060406967101}
   - component: {fileID: 6242825146673438711}
   - component: {fileID: 4711730325964812849}
+  - component: {fileID: 5978768637184169844}
   m_Layer: 0
   m_Name: HLStove
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: -7343131773951298646, guid: 16ca999073c8db14c8bb22c482f9e700, type: 3}
   - {fileID: 5426084961881497841, guid: be8f40a9b37cd1f43aa46854604495e5, type: 3}
   - {fileID: 5989768077265712221, guid: 6e44039fb2cc16a49bc18e183ed50ae3, type: 3}
+--- !u!64 &5978768637184169844
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594038176075693602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6074028379145110453, guid: 70e7852383242c74fbfe5fe11e104dee, type: 3}

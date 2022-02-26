@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class DrugManager : MonoBehaviour
 {
-    public delegate void SwitchNextState();
+    public delegate void SwitchNextState(int stateNum);
     public static event SwitchNextState switchNextState;
+    public delegate void ResetState();
+    public static event ResetState resetState;
 
     public float timeBetweenStates = 15f;
     public float currentTime;
+
+    public static int currentIndex = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +24,10 @@ public class DrugManager : MonoBehaviour
     {
         currentTime += Time.deltaTime;
         if (currentTime >= timeBetweenStates) {
-            switchNextState();
+            if (currentIndex < 3) {
+                currentIndex += 1;
+            }
+            switchNextState(currentIndex);
             currentTime = 0;
         }
         Debug.Log(currentTime);

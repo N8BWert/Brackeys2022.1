@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7370942670977570827}
   - component: {fileID: 4732770868184476865}
   - component: {fileID: 6228403132635281632}
+  - component: {fileID: 2083731659749745054}
   m_Layer: 0
   m_Name: AppartmentLight
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: 900302565731399597, guid: ff527914758819e4cb52600d235bc5e5, type: 3}
   - {fileID: -3705370086067138023, guid: 084f1fbc2bc770b468ffaa9583936cd0, type: 3}
   - {fileID: 4756338419871540240, guid: 04bdc0931d9c62f4fb0287f15d345ae6, type: 3}
+--- !u!64 &2083731659749745054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534391520988777748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4756338419871540240, guid: 04bdc0931d9c62f4fb0287f15d345ae6, type: 3}

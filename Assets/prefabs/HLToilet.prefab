@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4206678385349955447}
   - component: {fileID: 2127362576370760637}
   - component: {fileID: 739854073484502843}
+  - component: {fileID: -8985106186519211683}
   m_Layer: 0
   m_Name: HLToilet
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: 5354569107408142151, guid: 4173edebf6e9b2f43b223f8f88522ee7, type: 3}
   - {fileID: -416946732913040071, guid: adff4cb58ec864a489c74850717b923f, type: 3}
   - {fileID: -3202447525616816852, guid: ad2e1495b6d9ec8478d2bcae84dc718d, type: 3}
+--- !u!64 &-8985106186519211683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469804335302597224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8391839021667428018, guid: f2c07253fdacecd479f7d48857d1de6c, type: 3}
