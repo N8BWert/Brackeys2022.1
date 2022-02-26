@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5607029525336163688}
   - component: {fileID: 6490177465460041109}
   - component: {fileID: 3229536507799181123}
+  - component: {fileID: -3996960636378963168}
+  - component: {fileID: -2567921572592068221}
   m_Layer: 0
   m_Name: HLCounter1
   m_TagString: Untagged
@@ -119,3 +121,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4134462517785884784, guid: b007a857852e30840a80fa501ec28db8, type: 3}
+--- !u!114 &-3996960636378963168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255737193997116605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a3905a33de09c4799f457a6d0e8230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &-2567921572592068221
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255737193997116605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.59
+  m_Center: {x: 0, y: 0.16307434, z: -0.10383414}

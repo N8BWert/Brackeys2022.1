@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: drugChangesDoor
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 7aba3e15664f9d24aad52265c97d3f1e, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mats.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mats.Array.data[0]
+    value: 
+    objectReference: {fileID: 2100000, guid: ce927e3b0e023c04eb80952c23702eb1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: mats.Array.data[1]
+    value: 
+    objectReference: {fileID: 2100000, guid: 0bf215229bf7de74e9609833dd111c44, type: 2}
+  - target: {fileID: 0}
+    propertyPath: mats.Array.data[2]
+    value: 
+    objectReference: {fileID: 2100000, guid: 1b3a6e3a87800ad4190038a6158145de, type: 2}
+  - target: {fileID: 0}
+    propertyPath: mats.Array.data[3]
+    value: 
+    objectReference: {fileID: 2100000, guid: 3aedbff79eb925a4d8fd3467c049f5a6, type: 2}
+  - target: {fileID: 0}
+    propertyPath: meshes.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: meshes.Array.data[0]
+    value: 
+    objectReference: {fileID: 2029506538788374857, guid: 1b404f0b3f52fe14c9f4d4aa597191f8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: meshes.Array.data[1]
+    value: 
+    objectReference: {fileID: 1103544981288876061, guid: e5d03546d803c734f8f8c1d37ddf87d6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: meshes.Array.data[2]
+    value: 
+    objectReference: {fileID: 2029506538788374857, guid: 1b404f0b3f52fe14c9f4d4aa597191f8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: meshes.Array.data[3]
+    value: 
+    objectReference: {fileID: -3032782945070901132, guid: acaba6b03cb5d3a4ab13ee03fef8d819, type: 3}
+  m_ExcludedProperties: []
