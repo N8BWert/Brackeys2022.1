@@ -6,11 +6,9 @@ public class DrugManager : MonoBehaviour
 {
     public delegate void SwitchNextState(int stateNum);
     public static event SwitchNextState switchNextState;
-    public delegate void ResetState();
-    public static event ResetState resetState;
 
     public float timeBetweenStates = 15f;
-    public float currentTime;
+    public static float currentTime;
 
     public static int currentIndex = 0;
     // Start is called before the first frame update
