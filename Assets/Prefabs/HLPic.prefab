@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1046978444502645538}
   - component: {fileID: 2982343998590603240}
   - component: {fileID: 4513450913828756411}
+  - component: {fileID: 8663684471089948559}
   m_Layer: 0
   m_Name: HLPic
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: -4720061538489728026, guid: 2c49f327efa7bfb41a7007479ad188e4, type: 3}
   - {fileID: -5976275965273111801, guid: e7ac3a0db428f5a46b8f96601c19dc48, type: 3}
   - {fileID: 2937168427788501813, guid: 3fee91cc3aecb9e45ab548591eed391d, type: 3}
+--- !u!64 &8663684471089948559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630911067891002941}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8761668312856269560, guid: ff2691d6ca22ee7428e059e86b506e21, type: 3}

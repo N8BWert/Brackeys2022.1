@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6759623270627623943}
   - component: {fileID: 8803401223117582541}
   - component: {fileID: 7920252179779093172}
+  - component: {fileID: 8701419318246827302}
   m_Layer: 0
   m_Name: Shelf1
   m_TagString: Untagged
@@ -104,3 +105,17 @@ MonoBehaviour:
   - {fileID: 1818487441076576030, guid: aafa211792378d041acbf539f0a77601, type: 3}
   - {fileID: 8754805535606452892, guid: f2f9b56c4392a4249b3ef0d0f685718a, type: 3}
   - {fileID: 949004886905540655, guid: 6200f2e8ee005194f9b41da41ccd3037, type: 3}
+--- !u!64 &8701419318246827302
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7001701818879578392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4552961407312753236, guid: 0ea8f154f1f211b47a29566027622146, type: 3}
