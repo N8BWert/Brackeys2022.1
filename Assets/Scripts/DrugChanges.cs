@@ -9,13 +9,11 @@ public class DrugChanges : MonoBehaviour
     public Mesh[] meshes = new Mesh[4];
 
     private GameObject changeManager;
-    private int currentIndex = 0;
     // Start is called before the first frame update
-    void Start()
-    {
-        this.gameObject.GetComponent<MeshFilter>().mesh = meshes[0];
-        this.gameObject.GetComponent<MeshRenderer>().material = mats[0];
-        currentIndex = 0;
+
+    void Awake() {
+        this.gameObject.GetComponent<MeshFilter>().mesh = meshes[DrugManager.currentIndex];
+        this.gameObject.GetComponent<MeshRenderer>().material = mats[DrugManager.currentIndex];
     }
 
     private void OnEnable()
@@ -24,17 +22,13 @@ public class DrugChanges : MonoBehaviour
         DrugManager.resetState += resetState;
     }
 
-    public void changeState() {
-        if (currentIndex < 3) {
-            currentIndex += 1;
-        }
-        this.gameObject.GetComponent<MeshFilter>().mesh = meshes[currentIndex % meshes.Length];
-        this.gameObject.GetComponent<MeshRenderer>().material = mats[currentIndex % mats.Length];
+    public void changeState(int stateNum) {
+        this.gameObject.GetComponent<MeshFilter>().mesh = meshes[stateNum];
+        this.gameObject.GetComponent<MeshRenderer>().material = mats[stateNum];
     }
 
     public void resetState() {
-        currentIndex = 0;
-        this.gameObject.GetComponent<MeshFilter>().mesh = meshes[currentIndex % meshes.Length];
-        this.gameObject.GetComponent<MeshRenderer>().material = mats[currentIndex % mats.Length];
+        this.gameObject.GetComponent<MeshFilter>().mesh = meshes[0];
+        this.gameObject.GetComponent<MeshRenderer>().material = mats[0];
     }
 }

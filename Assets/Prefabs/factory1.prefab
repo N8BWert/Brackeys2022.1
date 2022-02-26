@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5630422929906057074}
   - component: {fileID: 6476970605523575784}
   - component: {fileID: -1420843979763670682}
+  - component: {fileID: 544587296729369849}
+  - component: {fileID: -5577061331112688684}
   m_Layer: 0
   m_Name: factory1
   m_TagString: Untagged
@@ -119,3 +121,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5646930606086586985, guid: 26c6d08bd85dd7c4e9ee06a57e9414dd, type: 3}
+--- !u!135 &544587296729369849
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134953425742077607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 52.17202
+  m_Center: {x: 52.61468, y: 216.46338, z: -85.59839}
+--- !u!114 &-5577061331112688684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6134953425742077607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af8b96c52fb1e94dbea1132fc8ae613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
