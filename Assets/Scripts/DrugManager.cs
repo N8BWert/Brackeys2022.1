@@ -17,10 +17,6 @@ public class DrugManager : MonoBehaviour
         currentTime = 0;
     }
 
-    void Awake() {
-        DontDestroyOnLoad(this.gameObject);
-    }
-
     // Update is called once per frame
     void Update()
     {
