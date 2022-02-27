@@ -12,6 +12,7 @@ public class STransitInteractable : MonoBehaviour
 
     void Update() {
         if (canTransition && Input.GetButtonDown("PlayerInteract") && doorUnlocked) {
+            ObjectTransforms.storeTransforms();
             SceneManager.LoadScene(nextSceneName);
         }
     }

@@ -43,14 +43,12 @@ public class DaDrug : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
             canPickUp = true;
-            Debug.Log("Pick Up");
         }
     }
 
     private void OnTriggerExit(Collider other) {
         if (other.CompareTag("Player")) {
             canPickUp = false;
-            Debug.Log("Cannot pick up");
         }
     }
 }
