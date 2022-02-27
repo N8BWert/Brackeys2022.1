@@ -8,12 +8,14 @@ public class MilkInteract : MonoBehaviour
     [SerializeField]
     private bool pickupable = false;
     public Text objective;
+    public AudioSource AudioSourceToPlayOnChange;
     // Start is called before the first frame update
     void Update()
     {
         if (pickupable && Input.GetButtonDown("PlayerInteract")) {
             GrocerySceneTransition.CanAdvance();
             objective.text = "Got the milk...\nTime to head home...I think she's waiting for me...";
+            AudioSourceToPlayOnChange.Play();
             Destroy(this.gameObject);
         }
     }

@@ -8,11 +8,13 @@ public class UnlockDoor : MonoBehaviour
     public GameObject transitionManager;
     private bool canPickUp;
     public Text objectiveText;
+    public AudioSource audioOnPickup;
 
     void Update() {
         if (canPickUp && Input.GetButtonDown("PlayerInteract")) {
             STransitInteractable.doorUnlocked = true;
             objectiveText.text = "Alright...\nLet's head for the front door...";
+            audioOnPickup.Play();
             Destroy(this.gameObject);
         }
     }
