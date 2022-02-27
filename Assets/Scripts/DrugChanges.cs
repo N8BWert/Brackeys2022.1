@@ -19,7 +19,7 @@ public class DrugChanges : MonoBehaviour
     private void OnEnable()
     {
         DrugManager.switchNextState += changeState;
-        DrugManager.resetState += resetState;
+        DaDrug.resetState += resetState;
     }
 
     public void changeState(int stateNum) {
