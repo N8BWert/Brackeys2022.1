@@ -1,7 +1,9 @@
+using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 
 public class CameraShake : MonoBehaviour
 {
@@ -58,7 +60,7 @@ public class CameraShake : MonoBehaviour
             yield return null;
         }
     }
-
+    
     public IEnumerator cShake (float duration, float amount) {
         float endTime = Time.time + duration;
 
