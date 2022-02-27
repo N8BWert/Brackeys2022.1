@@ -22,6 +22,16 @@ public class DrugChanges : MonoBehaviour
         DaDrug.resetState += resetState;
     }
 
+    private void OnDestory() {
+        DrugManager.switchNextState -= changeState;
+        DaDrug.resetState -= resetState;
+    }
+
+    private void OnDisable() {
+        DrugManager.switchNextState -= changeState;
+        DaDrug.resetState -= resetState;
+    }
+
     public void changeState(int stateNum) {
         this.gameObject.GetComponent<MeshFilter>().mesh = meshes[stateNum];
         this.gameObject.GetComponent<MeshRenderer>().material = mats[stateNum];
